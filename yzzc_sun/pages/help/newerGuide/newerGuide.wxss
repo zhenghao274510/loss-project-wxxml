@@ -1,0 +1,34 @@
+page {
+    background-color: #fff;
+}
+
+.topImg {
+    width: 100%;
+}
+
+.bianji {
+    width: 100%;
+}
+
+.title {
+    height: 90rpx;
+    font-size: 30rpx;
+    color: #000;
+    border-bottom: 1rpx solid #eee;
+    box-sizing: border-box;
+    line-height: 90rpx;
+    padding: 0rpx 30rpx;
+}
+
+.fangfa {
+    font-size: 26rpx;
+    padding: 30rpx 30rpx 0rpx 30rpx;
+}
+
+.fangfa-title {
+    color: #000;
+}
+
+.contents {
+    color: #999;
+}

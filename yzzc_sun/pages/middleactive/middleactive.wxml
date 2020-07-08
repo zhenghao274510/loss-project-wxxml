@@ -1,0 +1,14 @@
+<!--yzzc_sun/pages/middleactive/middleactive.wxml-->
+ <view class="goodswrap">
+        <view class="goodsList">
+            <view bindtap="goYuDing" class="goodsItem" data-cid="{{item.id}}" wx:for="{{list.data}}" wx:key="{{index}}">
+                <view class="goodsPic">
+                    <image class="goodsPic" src="{{imgLink+item.pic}}"></image>
+                    <view class="dist" wx:if="{{item.dis!=-1}}">{{item.dis}}km</view>
+                </view>
+                <view class="goodsName ellips1">{{item.name}}</view>
+                <view class="goodsName ellips1">
+                    <text class="moneyNum">¥{{item.money}}</text>/日均</view>
+            </view>
+        </view>
+    </view>

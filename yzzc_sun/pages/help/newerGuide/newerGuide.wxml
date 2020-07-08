@@ -1,0 +1,11 @@
+<view class="container">
+    <image class="topImg" mode="widthFix" src="{{imgLink+msg.pic}}" wx:if="{{msg.pic}}"></image>
+    <view class="wall"></view>
+    <view class="bianji">
+        <view class="title">{{msg.title}}</view>
+        <view class="fangfa">
+            <view class="fangfa-title">{{msg.title}}</view>
+            <text class="contents">{{msg.content}}</text>
+        </view>
+    </view>
+</view>
